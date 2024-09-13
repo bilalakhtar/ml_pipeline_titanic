@@ -25,4 +25,4 @@ def clean_data(file_path):
     print("Data cleaning completed and saved to 'cleaned_titanic.csv'.")
 
 if __name__ == "__main__":
-    clean_data('data/titanic.csv')
+    clean_data('titanic.csv')
