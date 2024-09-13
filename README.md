@@ -3,22 +3,14 @@
 
 This project demonstrates a complete machine learning pipeline to predict the survival of Titanic passengers, from data cleaning to model deployment.
 
-Prerequisites
-Python 3.7+
-Required Libraries:
-pandas
-scikit-learn
-joblib
-fastapi
-uvicorn
-gradio
-nest_asyncio
-pyngrok
-Install the required libraries using the following command:
+## Prerequisites
+- Python 3.7+
+- Required Libraries: pandas, scikit-learn, joblib, fastapi, uvicorn, gradio, nest_asyncio, pyngrok
 
-bash
-Copy code
-pip install pandas scikit-learn joblib fastapi uvicorn gradio nest_asyncio pyngrok
+Install the required libraries using the following command:
+  '''
+  pip install pandas scikit-learn joblib fastapi uvicorn gradio nest_asyncio pyngrok
+  '''
 Steps to Run
 Part 1: Data Cleaning
 Navigate to the Part1_Data_Cleaning folder.
