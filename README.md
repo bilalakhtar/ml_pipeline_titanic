@@ -5,7 +5,7 @@ This project builds a complete machine learning pipeline to predict the survival
 
 ## Prerequisites
 - Python 3.7+
-- Required Libraries: pandas, scikit-learn, joblib, fastapi, uvicorn, gradio
+- Required Libraries: pandas, scikit-learn, joblib, fastapi, uvicorn, gradio, ngrok
 
 ## Steps to Run
 
@@ -62,8 +62,14 @@ This project builds a complete machine learning pipeline to predict the survival
 ## Deployment
 - Deploy the FastAPI backend on Hugging Face Spaces.
 - Deploy the Gradio UI on Hugging Face Spaces.
-api.py: FastAPI application for serving the trained model.
-app.py: Gradio-based user interface for interacting with the deployed model.
+
+
+- data_cleaning.py: Script to clean and preprocess the Titanic dataset.
+- model_building.py: Script to build, train, and evaluate the machine learning model.
+- model_io.py: Script to save and load the trained model using joblib.
+- api.py: FastAPI application for serving the trained model.
+- app.py: Gradio-based user interface for interacting with the deployed model.
+
 Author
 Bilal Akhtar
 Feel free to reach out if you have any questions or feedback!
