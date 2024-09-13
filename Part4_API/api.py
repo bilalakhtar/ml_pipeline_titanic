@@ -1,3 +1,5 @@
+!ngrok config add-authtoken 2l1Ouypfij2gu4P49kAE42Xoctz_7bwkBVzykP37A9R32foUy
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import joblib
