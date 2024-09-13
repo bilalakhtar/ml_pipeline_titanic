@@ -5,7 +5,7 @@ This project builds a complete machine learning pipeline to predict the survival
 
 ## Prerequisites
 - Python 3.7+
-- Required Libraries: pandas, scikit-learn, joblib, fastapi, uvicorn, gradio
+- Required Libraries: pandas, scikit-learn, joblib, fastapi, uvicorn, gradio, ngrok
 
 ## Steps to Run
 
