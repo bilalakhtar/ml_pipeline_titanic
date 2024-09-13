@@ -33,4 +33,4 @@ def build_and_evaluate_model(file_path):
     return model
 
 if __name__ == "__main__":
-    model = build_and_evaluate_model('Part1_Data_Cleaning/cleaned_titanic.csv')
+    model = build_and_evaluate_model('/content/drive/MyDrive/Colab Notebooks/cleaned_titanic.csv')
