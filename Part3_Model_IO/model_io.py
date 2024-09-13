@@ -10,7 +10,6 @@ def load_model(file_path):
     return model
 
 if __name__ == "__main__":
-    from Part2_Model_Building.model_building import build_and_evaluate_model
-    model = build_and_evaluate_model('Part1_Data_Cleaning/cleaned_titanic.csv')
-    save_model(model, 'Part3_Model_IO/model.pkl')
-    loaded_model = load_model('Part3_Model_IO/model.pkl')
+    model = build_and_evaluate_model('/content/drive/MyDrive/Colab Notebooks/cleaned_titanic.csv')
+    save_model(model, '/content/drive/MyDrive/Colab Notebooks/model.pkl')
+    loaded_model = load_model('/content/drive/MyDrive/Colab Notebooks/model.pkl')
